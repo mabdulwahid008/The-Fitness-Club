@@ -1,0 +1,130 @@
+.Testimonial{
+    display: flex;
+    gap: 16px;
+    padding: 8px 32px;
+}
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap: 16px;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+.left-t>:nth-of-type(1){
+    color: var(--orange);
+    font-size: 16px;
+}
+.left-t>:nth-of-type(2),
+.left-t>:nth-of-type(3){
+    font-size: 45px;
+    font-weight: bold;
+}
+.left-t>.review{
+    margin: 30px 0 0 40px;
+    text-transform: none;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-style: italic;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--caloryCard);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.right-t{
+    flex: 1;
+    position: relative;
+}
+.right-t>img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    right: 100px;
+    top: 35px;
+    z-index: 1;
+}
+.arrow{
+    display: flex;
+    color: white;
+    position: absolute;
+    gap: 16px;
+    font-size: 22px;
+    top: 350px;
+    cursor: pointer;
+    right : 480px
+
+}
+.right-t>div:nth-of-type(1){
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid orange;
+    background-color: transparent;
+    z-index: 0;
+    right: 120px;
+    top: 10px;
+}
+.right-t>div:nth-of-type(2){
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: var(--planCard);
+    right: 80px;
+    top: 55px;
+}
+
+@media screen and (max-width : 768px) {
+    .Testimonial{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .left-t>span:nth-of-type(1){
+        letter-spacing: 1px;
+    }
+    .left-t>span:nth-of-type(2),
+    .left-t>span:nth-of-type(3){
+        font-size: 29px;
+    }
+    .left-t>.review{
+        margin-left: 0px;
+        padding: 20px 20px;
+    }
+    .right-t{
+        display: flex;
+        justify-content: center;
+    }
+    .right-t>img{
+        top: 0;
+        right: 0;
+        position: relative;
+        align-self: center;
+        height: 270px;
+        width: 270px;
+        margin-top: 10px;
+    }
+    .right-t>div:nth-of-type(1){
+        display: none;
+    }
+    .right-t>div:nth-of-type(2){
+        display: none;
+    }
+    .arrow{
+        right: 0;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 310px;
+        z-index: 5;
+        gap: 20px;
+    }
+}

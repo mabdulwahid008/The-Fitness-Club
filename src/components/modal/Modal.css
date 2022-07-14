@@ -1,0 +1,71 @@
+.modal{
+    z-index: 50;
+    background-color: var(--darkgrey);
+    position: fixed;
+    top: 200px;
+    left: 450px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 10px 10px 32px #111;
+    animation-name: animate;
+    animation-duration: 2s;
+    
+}
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title>span{
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn-m{
+    background-color: transparent;
+    color: white;
+    border: 2px solid var(--orange);
+    border-radius:5px;
+}
+.btn-m:hover{
+    background-color: var(--orange);
+}
+.body{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+@keyframes animate {
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 200px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .modal{
+        left: 0;
+        width: 80%;
+        margin-left: 12px;
+    }
+    .modal-container{
+        gap: 16px;
+    }
+    .title>span{
+        font-size: 20px;
+    }
+    .body{
+        font-size: 14px;
+    }
+    
+}
