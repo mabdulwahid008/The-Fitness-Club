@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/the-fitness-club/static/css/main.1f3506e9.css",
+    "main.js": "/the-fitness-club/static/js/main.11173058.js",
+    "static/js/787.ba9fddf7.chunk.js": "/the-fitness-club/static/js/787.ba9fddf7.chunk.js",
+    "static/media/body.png": "/the-fitness-club/static/media/body.a43c1230c193ff98fd3b.png",
+    "static/media/img1.jpg": "/the-fitness-club/static/media/img1.6e5a6ea5de57a47c1550.jpg",
+    "static/media/img3.jpg": "/the-fitness-club/static/media/img3.d6087adf5289adba59b1.jpg",
+    "static/media/reason1.jpg": "/the-fitness-club/static/media/reason1.3aa79a5d926f7b5eb5c9.jpg",
+    "static/media/reason2.jpg": "/the-fitness-club/static/media/reason2.ad490fc8acec16e5d41a.jpg",
+    "static/media/reason4.jpg": "/the-fitness-club/static/media/reason4.3e0a948d16b03672129d.jpg",
+    "static/media/img2.jpg": "/the-fitness-club/static/media/img2.d9cac6e932651b517c0d.jpg",
+    "static/media/reason5.jpg": "/the-fitness-club/static/media/reason5.8e997a31a49ac150741b.jpg",
+    "static/media/logo.png": "/the-fitness-club/static/media/logo.487bc85452f0c33f52ae.png",
+    "static/media/heart.png": "/the-fitness-club/static/media/heart.304b3188acc4a950174a.png",
+    "static/media/bars.png": "/the-fitness-club/static/media/bars.bfd79eb3c1fe628a4c9c.png",
+    "index.html": "/the-fitness-club/index.html",
+    "main.1f3506e9.css.map": "/the-fitness-club/static/css/main.1f3506e9.css.map",
+    "main.11173058.js.map": "/the-fitness-club/static/js/main.11173058.js.map",
+    "787.ba9fddf7.chunk.js.map": "/the-fitness-club/static/js/787.ba9fddf7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f3506e9.css",
+    "static/js/main.11173058.js"
+  ]
+}
